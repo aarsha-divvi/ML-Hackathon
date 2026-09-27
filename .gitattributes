@@ -1,3 +1,4 @@
 output/*.tsv filter=lfs diff=lfs merge=lfs -text
 dataset/** !text -filter -merge -diff
 output/** !text -filter -merge -diff
+output/candidate_pairs.tsv filter=lfs diff=lfs merge=lfs -text
